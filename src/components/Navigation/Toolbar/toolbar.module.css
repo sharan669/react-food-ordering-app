@@ -1,0 +1,17 @@
+.Toolbar{
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: #703B09;
+    display: flex; /* This will put elements that comes inside toolbar beside each other */
+    justify-content: space-between; /* This will give space between the elements */
+    align-items: center;
+    padding: 0 20px; /*This puts 0 px to top/bottom and 20px for both left/right */
+    z-index: 90;
+}
+
+.Toolbar nav{
+    height: 100%;
+}
